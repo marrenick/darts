@@ -57,7 +57,7 @@
 
         // Map
         var map = L.map('map', {
-            center: [49.292047741455335, 2.3005910795329307],
+            center: [6.356026815979021e-15, 0.0],
             zoom: 13,
             minZoom: 0,
             maxZoom: 13,
@@ -97,7 +97,7 @@
         L.control.layers(basemaps, overlaymaps, {collapsed: false}).addTo(map);
 
         // Fit to overlay bounds (SW and NE points with (lat, lon))
-        map.fitBounds([[48.88497255163215, 2.9233876985961853], [49.699122931278524, 1.677794460469676]]);
+        map.fitBounds([[-0.3961538838356946, 0.39615704029670895], [0.3961538838357073, -0.39615704029670895]]);
 
         </script>
 
